@@ -1,0 +1,105 @@
+---
+title: Jipaoba Machines
+users: active
+---
+
+{{> navbar }}
+
+	<main class="container">
+		<h2> 用户管理 </h2>
+		<p></p>
+    <p>
+      <table class="table" style="background-color:#fff">
+        <thead>
+          <tr>
+            <th scope="col">编号</th>
+            <th scope="col">姓名</th>
+            <th scope="col">手机号</th>
+            <th scope="col">状态</th>
+            <th scope="col">开通时间</th>
+            <th scope="col">角色</th>
+          </tr>
+        </thead>
+        <tfoot>
+          {{!-- <tr><td colspan="6"></td></tr> --}}
+        </tfoot>
+        <tbody>
+          <tr>
+            <td scope="row">1</td>
+            <td scope="row">管理员</td>
+            <td scope="row">13810081920</td>
+            <td scope="row" class="text-success"> <a >正常</a></td>
+            <td scope="row">2017-07-16 10:27:03</td>
+            <td scope="row" class="text-right">管理员</td>
+          </tr>
+          <tr>
+            <td scope="row">2</td>
+            <td scope="row">梁勇</td>
+            <td scope="row">13601010796</td>
+            <td scope="row" class="text-success"> <a >正常</a></td>
+            <td scope="row">2017-07-17 11:40:06</td>
+            <td scope="row" class="text-right">管理员</td>
+          </tr>
+          <tr>
+            <td scope="row">3</td>
+            <td scope="row">李宁</td>
+            <td scope="row">15801663119</td>
+            <td scope="row" class="text-danger"> <a >离职</a></td>
+            <td scope="row">2017-07-17 11:42:16</td>
+            <td scope="row" class="text-right">客服</td>
+          </tr>
+          <tr>
+            <td scope="row">4</td>
+            <td scope="row">韩靖</td>
+            <td scope="row">17679216619</td>
+            <td scope="row" class="text-success"> <a >正常</a></td>
+            <td scope="row">2017-08-29 09:31:57</td>
+            <td scope="row" class="text-right">客服</td>
+          </tr>
+          <tr>
+            <td scope="row">5</td>
+            <td scope="row">张卓娅</td>
+            <td scope="row">13601010796</td>
+            <td scope="row" class="text-success"> <a >正常</a></td>
+            <td scope="row">2017-08-29 09:32:26</td>
+            <td scope="row" class="text-right">客服</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </p>
+    <p>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          {{!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li> --}}
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </p>
+    <nav class="btn-top-right">
+      <form class="form-inline">
+        <div class="form-group mx-sm-2 mb-2 mr-2">
+          <label for="inputBefore" class="sr-only">Before</label>
+          <input type="calendar" class="form-control" id="inputPassword2" placeholder="" value="">
+        </div>
+        <button class="btn btn-primary mb-2 mr-3">查询</button>
+        <button class="btn btn-primary mb-2" href="#">新增用户</button>
+      </form>
+    </nav>
+	</main>

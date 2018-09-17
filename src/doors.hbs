@@ -1,0 +1,170 @@
+---
+title: Jipaoba Machines
+doors: active
+---
+
+{{> navbar }}
+
+	<main class="container">
+		<h2> 门禁管理 </h2>
+		<p></p>
+    <p>
+      <table class="table" style="background-color:#fff">
+        <thead>
+          <tr>
+            <th scope="col">设备编号</th>
+            <th scope="col">健身房</th>
+            <th scope="col">门名称</th>
+            <th scope="col">单/双向</th>
+            <th scope="col">状态</th>
+            <th scope="col">编码</th>
+          </tr>
+        </thead>
+        <tfoot>
+          {{!-- <tr><td colspan="6"></td></tr> --}}
+        </tfoot>
+        <tbody>
+          <tr>
+            <td scope="row">20001011</td>
+            <td scope="row">测试</td>
+            <td scope="row">正门</td>
+            <td scope="row">单向</td>
+            <td scope="row" class="text-danger"> <a >离线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001012</td>
+            <td scope="row">房山超级蜂巢</td>
+            <td scope="row">前门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001013</td>
+            <td scope="row">房山超级蜂巢</td>
+            <td scope="row">侧门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001014</td>
+            <td scope="row">房山超级蜂巢</td>
+            <td scope="row">洗浴间A</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001015</td>
+            <td scope="row">房山超级蜂巢</td>
+            <td scope="row">洗浴间B</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001016</td>
+            <td scope="row">美景东方店</td>
+            <td scope="row">正门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001017</td>
+            <td scope="row">美景东方店</td>
+            <td scope="row">操房门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001018</td>
+            <td scope="row">美景东方店</td>
+            <td scope="row">洗浴间门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001019</td>
+            <td scope="row">中关村软件园</td>
+            <td scope="row">正门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-success"> <a >在线</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+          <tr>
+            <td scope="row">20001020</td>
+            <td scope="row">中关村软件园</td>
+            <td scope="row">侧门</td>
+            <td scope="row">双向</td>
+            <td scope="row" class="text-danger"> <a >未安装</a></td>
+            <td scope="row"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">二维码</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+    <p>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          {{!-- <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li> --}}
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </p>
+    <nav class="btn-top-right">
+      <form class="form-inline">
+        <div class="form-group mx-sm-2 mb-2 mr-2">
+          <label for="inputBefore" class="sr-only">Before</label>
+          <input type="calendar" class="form-control" id="inputPassword2" placeholder="" value="">
+        </div>
+        <button class="btn btn-primary mb-2">查询</button>
+        {{!-- <button class="btn btn-primary mb-2" href="#">新增门禁</button> --}}
+      </form>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">门禁编码</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            {{!-- <p>跑步机 200101</p>
+            <p>操作：停止</p> --}}
+            {{!-- <h3>发送消息</h3> --}}
+            <img src="./assets/img/qr-code.png" style="width: 100%;">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            {{!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">放弃</button> --}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+	</main>

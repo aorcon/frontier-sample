@@ -1,0 +1,199 @@
+---
+title: Jipaoba Machines
+gyms: active
+---
+
+{{> navbar }}
+
+	<main class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="gyms.html">健身房管理</a></li>
+        <li class="breadcrumb-item"><a href="gym.html">健身房信息</a></li>
+        <li class="breadcrumb-item active" aria-current="page">编辑信息</li>
+      </ol>
+    </nav>
+    <p></p>
+		<h3> 房山超级蜂巢 </h3>
+		<p></p>
+    <p>
+      <div class="white-block">
+        <div class="block-header m-3">
+          <h3>健身房信息</h3>
+        </div>
+        <div class="block-body">
+          <table class="table underscore">
+            <tr>
+              <td>名称</td>
+              <td><input class="form-control" type="text" value="房山超级蜂巢" /></td>
+            </tr>
+            <tr>
+              <td>类别</td>
+              <td><select class="form-control" type="text" value="自助健身">
+                <option>自助健身</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>店长</td>
+              <td><input class="form-control" type="text" value="李阳" /></td>
+            </tr>
+            <tr>
+              <td>联系方式</td>
+              <td><input class="form-control" type="text" value="18045011089" /></td>
+            </tr>
+            <tr>
+              <td>地址</td>
+              <td><input class="form-control" type="text" value="北京市房山区房山超级蜂巢" /></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </p>
+    <p>
+    </p>
+    <p>
+      <a class="btn-lg btn-primary px-5" href="#">提交</a>
+    </p>
+    <p>
+      <div style="height: 1px; border-bottom: 1px solid #ddd"></div>
+    </p>
+    <p style="text-align: right;">
+      <a class="btn-lg btn-primary px-5" href="#" data-toggle="modal" data-target="#exampleModalCenter">添加门禁</a>
+    </p>
+    <div class="row">
+      <div class="col">
+        <div class="bd-close">
+          <button type="button" class="close btn-close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="white-block">
+          <div class="block-header m-3"><h4>前门</h4></div>
+          <div class="block-body">
+            <table class="table underscore text-monospace mb-0">
+              <tbody>
+                <tr><td>编号</td><td>20001012</td></tr>
+                <tr><td>状态</td><td>在线</td></tr>
+                <tr><td>单/双向</td><td>双向</td></tr>
+                <tr><td>编码</td><td>二维码</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="bd-close">
+          <button type="button" class="close btn-close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="white-block">
+          <div class="block-header m-3"><h4>侧门</h4></div>
+          <div class="block-body">
+            <table class="table underscore text-monospace mb-0">
+              <tbody>
+                <tr><td>编号</td><td>20001013</td></tr>
+                <tr><td>状态</td><td>在线</td></tr>
+                <tr><td>单/双向</td><td>双向</td></tr>
+                <tr><td>编码</td><td>二维码</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="bd-close">
+          <button type="button" class="close btn-close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="white-block">
+          <div class="block-header m-3"><h4>洗浴间A</h4></div>
+          <div class="block-body">
+            <table class="table underscore text-monospace mb-0">
+              <tbody>
+                <tr><td>编号</td><td>20001014</td></tr>
+                <tr><td>状态</td><td>在线</td></tr>
+                <tr><td>单/双向</td><td>双向</td></tr>
+                <tr><td>编码</td><td>二维码</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="bd-close">
+          <button type="button" class="close btn-close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="white-block">
+          <div class="block-header m-3"><h4>洗浴间B</h4></div>
+          <div class="block-body">
+            <table class="table underscore text-monospace mb-0">
+              <tbody>
+                <tr><td>编号</td><td>20001015</td></tr>
+                <tr><td>状态</td><td>在线</td></tr>
+                <tr><td>单/双向</td><td>双向</td></tr>
+                <tr><td>编码</td><td>二维码</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="btn-top-right-2">
+      <form class="form-inline">
+        {{!-- <div class="form-group mx-sm-2 mb-2 mr-2">
+          <label for="inputBefore" class="sr-only">Before</label>
+          <input type="calendar" class="form-control" id="inputPassword2" placeholder="" value="">
+        </div>
+        <button class="btn btn-primary mb-2">查询</button> --}}
+        {{!-- <button class="btn btn-primary mb-2" href="#">编辑</button> --}}
+      </form>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">添加门禁</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            {{!-- <p>跑步机 200101</p>
+            <p>操作：停止</p> --}}
+            {{!-- <h3>发送消息</h3> --}}
+            <table class="table underscore text-monospace mb-0">
+              <tbody>
+                <tr><td>编号</td><td><select class="form-control" type="text" value="">
+                  <option></option>
+                  <option>20001011</option>
+                  <option>20001012</option>
+                </select></td></tr>
+                <tr><td>单/双向</td><td>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">单向</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">双向</label>
+                  </div>
+                </td></tr>
+                {{!-- <tr><td>编码</td><td>二维码</td></tr> --}}
+              </tbody>
+            </table>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">添加</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">放弃</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</main>

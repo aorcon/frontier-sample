@@ -1,0 +1,145 @@
+---
+title: Jipaoba Machines
+supports: active
+---
+
+{{> navbar }}
+
+	<main class="container">
+		<h2> 客服记录 </h2>
+		<p></p>
+    <p>
+      <table class="table" style="background-color:#fff">
+        <thead>
+          <tr>
+            <th scope="col">时间</th>
+            <th scope="col">会员昵称</th>
+            <th scope="col">姓名</th>
+            <th scope="col">手机号</th>
+            <th scope="col">接待人员</th>
+            <th scope="col">客服状态</th>
+          </tr>
+        </thead>
+        <tfoot>
+          {{!-- <tr><td colspan="6"></td></tr> --}}
+        </tfoot>
+        <tbody>
+          <tr>
+            <td scope="row">2018-08-23 18:45:13</td>
+            <td scope="row">心语如梦</td>
+            <td scope="row">赵先生</td>
+            <td scope="row">13020002688</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-23 14:19:07</td>
+            <td scope="row">艾伊汝</td>
+            <td scope="row">李女士</td>
+            <td scope="row">15819716565</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-23 12:47:25</td>
+            <td scope="row"></td>
+            <td scope="row">纪晓妹</td>
+            <td scope="row">18948321389</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-danger"> <a >待处理</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-23 11:04:48</td>
+            <td scope="row">甜美热儿</td>
+            <td scope="row">林女士</td>
+            <td scope="row">15810811705</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-23 11:04:48</td>
+            <td scope="row"></td>
+            <td scope="row">王先生</td>
+            <td scope="row">15501007709</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-22 16:18:32</td>
+            <td scope="row">💗我 si 小馋猫儿🐱💗</td>
+            <td scope="row">潘美辰</td>
+            <td scope="row">18945812043</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-22 12:37:21</td>
+            <td scope="row">Mr.TaoTao</td>
+            <td scope="row">王涛</td>
+            <td scope="row">13121521093</td>
+            <td scope="row">管理员</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-21 17:59:21</td>
+            <td scope="row">Leo小叔	</td>
+            <td scope="row">周先生</td>
+            <td scope="row">15001115121</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-21 12:17:39</td>
+            <td scope="row"></td>
+            <td scope="row">田女士</td>
+            <td scope="row">15010783303</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+          <tr>
+            <td scope="row">2018-08-21 10:36:51</td>
+            <td scope="row"></td>
+            <td scope="row">周女士</td>
+            <td scope="row">13080059125</td>
+            <td scope="row">田旭</td>
+            <td scope="row" class="text-success"> <a >已确认</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+    <p>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          {{!-- <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li> --}}
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </p>
+    <nav class="btn-top-right">
+      <form class="form-inline">
+        <div class="form-group mx-sm-2 mb-2 mr-2">
+          <label for="inputBefore" class="sr-only">Before</label>
+          <input type="calendar" class="form-control" id="inputPassword2" placeholder="" value="">
+        </div>
+        <button class="btn btn-primary mb-2 mr-3">查询</button>
+        <button class="btn btn-primary mb-2" href="#">新接来电</button>
+        {{!-- <button class="btn btn-primary mb-2" href="#">新增门禁</button> --}}
+      </form>
+    </nav>
+	</main>

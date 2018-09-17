@@ -1,0 +1,132 @@
+
+#layout-left {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 256px;
+	height: 100%;
+	padding: 100px 30px;
+}
+
+.absolute-right-top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 15px;
+}
+
+main {
+	position: relative;
+	margin-top: 90px;
+}
+
+body {
+	background-color: #eff3f6;
+}
+
+nav.navbar.subnavbar-top {
+	background-image: linear-gradient(90deg, rgb(46, 25, 235) 0%, rgb(46, 99, 248) 100%);
+	// background-image: -webkit-linear-gradient(90deg, rgb(25, 145, 235) 0%, rgb(46, 161, 248) 100%);
+	// background-image: -ms-linear-gradient(90deg, rgb(25, 145, 235) 0%, rgb(46, 161, 248) 100%);
+	// position: absolute;
+	// left: 0;
+	// top: 0;
+	width: 100%;
+	height: 70px;
+}
+
+nav.navbar.subnavbar-bottom {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 1px 0 0 rgba(230, 234, 238, 0.004);
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	height: 70px;
+	border-bottom: solid 1px #e6eaee;
+}
+
+nav.subnavbar-bottom li.nav-item {
+	font-size: 1.4rem;
+	line-height: 50px;
+}
+
+nav.subnavbar-bottom li.nav-item.active {
+	border-bottom: solid 3px #1a91eb;
+}
+
+.btn-top-right {
+	position: absolute;
+	top: 0;
+	right: 18px;
+}
+
+.btn-top-right .btn,
+.btn-top-right-2 .btn {
+	background-color: rgb(25, 145, 235);
+}
+
+.btn-top-right-2 {
+	position: absolute;
+	top: 60px;
+	right: 18px;
+}
+
+.white-block {
+	background-color: #fff;
+	border: 1px solid #e6eaee;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.width-2 {
+	width: 700px;
+}
+
+.table.underscore td {
+	border-top: none;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.right-float {
+	width: 390px;
+	position: absolute;
+	top: 113px;
+	right: 18px;
+}
+
+.icon-44 {
+	width: 44px;
+	height: 44px;
+	padding: 3px;
+	background-color: #8378eb;
+	// background-color: #58519e;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.btn-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 10;
+	display: block;
+	padding: 5px 5px;
+	color: #818a91;
+	cursor: pointer;
+	background-color: transparent;
+	border: 0;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.bd-close {
+	display: block;
+	position: relative;
+	float: right;
+}
